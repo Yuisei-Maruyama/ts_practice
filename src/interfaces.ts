@@ -45,8 +45,4 @@ class Person implements Greetable {
 const user1: Greetable = new Person()
 console.log(user1)
 
-user1.greet('hello I am');
-
-
-
-
+user1.greet('hello I am')
